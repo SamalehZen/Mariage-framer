@@ -1,0 +1,20 @@
+.timeline{padding:60px 60px 80px;display:flex;flex-direction:column;align-items:center;height:2678.9px}
+.timeline-content{width:1080px;display:flex;flex-direction:column;align-items:center;gap:80px}
+.timeline-title{width:1080px;height:216px;display:flex;flex-direction:column;align-items:center;gap:24px}
+.timeline-title .h2{width:500px;height:168px;margin:0}
+.tl-list{position:relative;width:1080px;height:2244px;display:flex;flex-direction:column}
+.tl-progress{position:absolute;left:538px;top:0;width:5px;height:2244px;background:rgba(219,200,182,0.25);border-radius:99px;overflow:hidden;z-index:0}
+.tl-fill{position:absolute;left:0;top:0;width:5px;background:rgb(219,200,182);border-radius:99px}
+.tl-row{position:relative;width:1080px;height:374px}
+.tl-card{position:absolute;top:0;width:300px;height:374px;padding:40px 0;display:flex;flex-direction:column;justify-content:center;gap:24px}
+.tl-row.left .tl-card{left:138px;align-items:flex-end}
+.tl-row.right .tl-card{left:643px;align-items:flex-start}
+.tl-images{position:relative;width:300px;height:112px}
+.tl-frame{position:absolute;background:#fff;border-radius:14px;padding:6px;box-shadow:rgba(0,0,0,0.1) 0 3px 6px 0;overflow:clip}
+.tl-frame img{width:100%;height:100%;object-fit:cover;border-radius:10px}
+.tl-text{width:300px;padding-top:8px;display:flex;flex-direction:column;gap:12px}
+.tl-row.left .tl-text{align-items:flex-end;text-align:right}
+.tl-row.right .tl-text{align-items:flex-start;text-align:left}
+.tl-time{margin:0;font-family:"Switzer",sans-serif;font-weight:500;font-size:14px;line-height:15.4px;color:rgba(0,0,0,0.6)}
+.tl-text h5{margin:0;font-family:"Instrument Serif",serif;font-weight:400;font-size:32px;line-height:38.4px;letter-spacing:-0.64px;color:#000}
+.tl-desc{margin:0;font-family:"Switzer",sans-serif;font-weight:400;font-size:16px;line-height:24px;color:#000;width:300px}

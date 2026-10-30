@@ -1,0 +1,14 @@
+.venue{padding:60px;display:flex;flex-direction:column;align-items:center;height:1104.2px}
+.venue-content{width:1080px;display:flex;flex-direction:column;align-items:center;gap:0}
+.venue-title{margin-bottom:60px;width:1080px;display:flex;flex-direction:column;align-items:center;gap:24px;height:216px}
+.venue-title .h2{width:500px;height:168px;margin:0}
+.venue-image{width:900px;height:506.234px;margin:0 auto;overflow:clip;border-radius:15px;position:relative}
+.venue-image img{width:900px;height:506.234px;object-fit:cover;border-radius:15px;display:block}
+.venue-cta{width:1080px;display:flex;flex-direction:column;align-items:center;gap:40px;height:202px}
+.venue-text{display:flex;flex-direction:column;align-items:center;gap:4px;height:73px}
+.venue-invite{margin:0;width:1080px;font-family:"Switzer",sans-serif;font-weight:400;font-size:14px;line-height:21px;letter-spacing:7.98px;color:rgb(217,194,141);text-align:center}
+.venue-script{margin:0;width:1080px;font-family:"Luxurious Script",cursive;font-weight:400;font-size:40px;line-height:48px;color:#000;text-align:center}
+.rsvp-pill{width:600px;height:89px;border-radius:22px;background:rgb(255,245,222);padding:15px 15px 15px 25px;display:flex;align-items:flex-start;justify-content:space-between;gap:24px;overflow:clip;box-shadow:rgba(0,0,0,0.08) 0 2px 4px 0}
+.rsvp-info{width:389px;display:flex;flex-direction:column;gap:8px;justify-content:center;height:59px;overflow:clip}
+.rsvp-name{margin:0;font-family:"Switzer",sans-serif;font-weight:500;font-size:18px;line-height:27px;color:#000}
+.rsvp-addr{margin:0;font-family:"Switzer",sans-serif;font-weight:400;font-size:16px;line-height:24px;color:rgba(0,0,0,0.6)}
