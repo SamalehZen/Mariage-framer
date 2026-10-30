@@ -1,14 +1,14 @@
-.details{padding:60px;display:flex;flex-direction:column;align-items:center;justify-content:center;height:758px}
+.details{padding:60px;display:flex;flex-direction:column;align-items:center;justify-content:center;height:758.03125px}
 .details-content{width:1080px;display:flex;flex-direction:column;align-items:center;gap:80px}
-.details-head{width:1080px;height:90px;display:flex;align-items:flex-end;justify-content:space-between;overflow:clip}
+.details-head{width:1080px;height:89.625px;display:flex;align-items:flex-end;justify-content:space-between;overflow:clip}
 .details-head h3{margin:0;font-family:"Instrument Serif",serif;font-weight:400;font-size:60px;line-height:72px;color:#000;width:690px}
 .details-head p{margin:0;font-family:"Switzer",sans-serif;font-weight:500;font-size:16px;line-height:22.4px;color:rgba(0,0,0,0.8);width:390px}
-.details-grid{width:1080px;display:grid;grid-template-columns:repeat(3,347px);gap:20px;height:468px}
-.detail-card{position:relative;width:347px;height:468px;border-radius:15px;overflow:clip;background:#fff;box-shadow:rgba(0,0,0,0.15) 0 3px 6px 0;display:flex;flex-direction:column;justify-content:flex-end;cursor:pointer}
+.details-grid{width:1080px;display:grid;grid-template-columns:346.65625px 346.671875px 346.65625px;gap:20px;height:468.390625px}
+.detail-card{position:relative;width:100%;height:468.390625px;border-radius:15px;overflow:clip;background:#fff;box-shadow:rgba(0,0,0,0.15) 0 3px 6px 0;display:flex;flex-direction:column;justify-content:flex-end;cursor:pointer}
 .detail-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:15px}
 .detail-shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0) 100%)}
-.detail-title{position:relative;padding:0 20px 15px;display:flex;align-items:flex-start;height:53px}
-.detail-title h5{margin:0;font-family:"Instrument Serif",serif;font-weight:400;font-size:32px;line-height:38.4px;letter-spacing:-0.64px;color:#fff}
+.detail-title{position:relative;padding:0 20px 15px;display:flex;align-items:flex-start;height:53.40625px}
+.detail-title h5{margin:0;width:100%;font-family:"Instrument Serif",serif;font-weight:400;font-size:32px;line-height:38.4px;letter-spacing:-0.64px;color:#fff}
 .detail-bar{position:relative;height:86px;background:rgba(0,0,0,0.25);padding:20px;display:flex;align-items:center;justify-content:space-between;gap:10px}
 .detail-bar-text{display:flex;flex-direction:column;gap:0;width:251px}
 .detail-bar-text p{margin:0;font-family:"Switzer",sans-serif;font-weight:500;font-size:16px;line-height:22.4px}
@@ -16,3 +16,9 @@
 .detail-bar-text p:last-child{color:rgba(255,255,255,0.5)}
 .detail-btn{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,0.25);display:grid;place-items:center;opacity:0.8}
 .detail-arrow{width:16px;height:16px;background:rgba(255,255,255,0.5);clip-path:polygon(45% 0,55% 0,55% 45%,100% 45%,100% 55%,55% 55%,55% 100%,45% 100%,45% 55%,0 55%,0 45%,45% 45%)}
+.detail-modal{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,0.45);display:grid;place-items:center;padding:24px}
+.detail-panel{position:relative;width:640px;max-width:100%;max-height:86vh;overflow:auto;background:rgb(255,252,245);border-radius:20px;padding:48px;box-shadow:0 30px 80px rgba(0,0,0,0.3)}
+.detail-panel .eyebrow{text-align:left;color:rgb(219,200,182)}
+.detail-panel h3{margin:10px 0 24px;font-family:"Instrument Serif",serif;font-weight:400;font-size:48px;line-height:56px}
+.detail-body p{margin:0 0 16px;font-family:"Switzer",sans-serif;font-size:18px;line-height:27px;color:rgba(0,0,0,0.7)}
+.detail-close{position:absolute;top:14px;right:18px;width:36px;height:36px;border:none;border-radius:50%;background:rgba(0,0,0,0.06);font-size:22px;line-height:1;cursor:pointer;color:#000}

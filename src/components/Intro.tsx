@@ -32,7 +32,7 @@ export function Intro() {
   return (
     <section className="section intro" id="intro" ref={ref}>
       <p className="intro-quote reveal">
-        {WORDS.map((w,i)=> <span key={i} className={DIM.has(w)?"dim":""}>{w}{i<WORDS.length-1?" ":""}</span>)}
+        {WORDS.map((w,i)=> <span key={i}>{w}{i<WORDS.length-1?" ":""}</span>)}
       </p>
       <div className="intro-bottom reveal">
         <p className="scratch-label">Scratch to reveal</p>

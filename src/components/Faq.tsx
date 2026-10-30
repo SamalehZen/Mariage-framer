@@ -17,7 +17,7 @@ export function Faq() {
       <div className="faq-content">
         <div className="faq-title">
           <p className="eyebrow">Frequently Asked Questions</p>
-          <h3>Here are answers to your questions</h3>
+          <h3>Here are answers<br />to your questions</h3>
         </div>
         <div className="accordion">
           {QA.map(([q,a],i)=>(

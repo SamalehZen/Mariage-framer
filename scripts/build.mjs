@@ -7,7 +7,13 @@ await esbuild.build({
   define:{"process.env.NODE_ENV":'"production"'},
   loader:{".woff2":"file",".webp":"file",".jpg":"file",".png":"file",".avif":"file"},
 });
+await esbuild.build({
+  entryPoints:["src/rsvp.tsx"], bundle:true, outfile:"dist/rsvp/app.js",
+  jsx:"automatic", minify:true, legalComments:"none", target:["chrome110"],
+  define:{"process.env.NODE_ENV":'"production"'},
+});
 fs.copyFileSync("index.html","dist/index.html");
+fs.copyFileSync("rsvp.html","dist/rsvp/index.html");
 fs.mkdirSync("dist/assets",{recursive:true});
 for (const f of fs.readdirSync("assets")) fs.cpSync("assets/"+f,"dist/assets/"+f,{recursive:true});
 console.log("built dist/", fs.readdirSync("dist"));

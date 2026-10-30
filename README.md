@@ -33,7 +33,8 @@ The experience is fully client-side: no backend, no CMS, no third-party runtime.
 - **Scroll-driven story** — a sticky horizontal gallery that moves with the page.
 - **Timeline** — six moments of the day, alternating layout and a progress line tied
   to the scroll position.
-- **RSVP call-to-actions** — repeated at the venue, mid-page and in the footer.
+- **RSVP call-to-actions** — repeated at the venue, mid-page and in the footer, linking to a three-step RSVP page at `/rsvp`.
+- **Detail panels** — accommodation, food and dress-code cards open an accessible modal.
 - **Details & FAQ** — three detail cards and an accessible accordion.
 - **Motion with restraint** — IntersectionObserver reveals, transform/opacity-only
   animations, reduced layout work on scroll.
@@ -106,8 +107,11 @@ node scripts/serve.mjs 8080 # preview → http://127.0.0.1:8080
 │   │                   RsvpIntro, Details, Faq, Footer
 │   ├── hooks/          useReveal — IntersectionObserver reveals
 │   ├── styles/         global.css, shared.css
+│   ├── rsvp.tsx        three-step RSVP page (mounted at /rsvp)
+│   ├── rsvp.css
 │   ├── App.tsx
 │   └── main.tsx
+├── rsvp.html
 ├── assets/             fonts, images, video, audio
 ├── scripts/            build.mjs, serve.mjs
 ├── docs/screenshots/   README captures

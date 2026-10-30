@@ -1,0 +1,21 @@
+.rsvp-page{min-height:100vh;background:rgb(255,252,245);padding:80px 60px;display:flex;flex-direction:column;align-items:center;gap:48px}
+.rsvp-head{max-width:760px;text-align:center}
+.rsvp-head .eyebrow{color:rgb(219,200,182);margin-bottom:18px}
+.rsvp-head h1{margin:0;font-family:"Instrument Serif",serif;font-weight:400;font-size:70px;line-height:84px;color:#000}
+.rsvp-head .lede{margin:24px auto 0;max-width:620px;font-family:"Switzer",sans-serif;font-size:18px;line-height:27px;color:rgba(0,0,0,0.6)}
+.rsvp-form{width:560px;display:flex;flex-direction:column;gap:28px}
+.rsvp-progress{display:flex;align-items:center;gap:16px;font-family:"Switzer",sans-serif;font-size:14px;color:rgba(0,0,0,0.5)}
+.rsvp-progress .bar{flex:1;height:4px;border-radius:99px;background:rgba(219,200,182,0.3);overflow:hidden}
+.rsvp-progress .bar i{display:block;height:100%;background:rgb(219,200,182);transition:width .4s ease}
+.step{display:flex;flex-direction:column;gap:18px}
+.q{margin:0;font-family:"Switzer",sans-serif;font-weight:500;font-size:16px;line-height:22px;color:#000}
+.choices{display:flex;gap:12px;flex-wrap:wrap}
+.choice{border:1px solid rgba(0,0,0,0.1);background:#fff;border-radius:12px;padding:12px 22px;font:500 16px "Switzer",sans-serif;cursor:pointer}
+.choice.on{background:#000;color:#fff;border-color:#000}
+.row{display:flex;gap:12px}
+.row input{flex:1}
+input,textarea{width:100%;border:1px solid rgba(0,0,0,0.12);background:#fff;border-radius:12px;padding:14px 18px;font:400 16px "Switzer",sans-serif;outline:none;box-sizing:border-box}
+textarea{min-height:110px;resize:vertical}
+.rsvp-actions{display:flex;justify-content:flex-end;gap:12px}
+.primary{background:#000;color:#fff;border:none;border-radius:15px;padding:15px 30px;font:500 16px "Switzer",sans-serif;cursor:pointer}
+.ghost{background:transparent;border:none;border-radius:15px;padding:15px 22px;font:500 16px "Switzer",sans-serif;cursor:pointer;color:rgba(0,0,0,0.6)}

@@ -1,12 +1,12 @@
-.faq{padding:60px 60px 100px;display:flex;flex-direction:column;align-items:center;min-height:831.4px;transition:height .5s cubic-bezier(.2,.65,.25,1)}
+.faq{padding:60px 60px 100px;display:flex;flex-direction:column;align-items:center;min-height:831.4375px;transition:height .5s cubic-bezier(.2,.65,.25,1)}
 .faq-content{width:1080px;display:flex;flex-direction:column;align-items:center;gap:60px}
-.faq-title{width:1080px;display:flex;flex-direction:column;align-items:center;gap:24px}
+.faq-title{width:1080px;height:192px;display:flex;flex-direction:column;align-items:center;gap:24px}
 .faq-title h3{margin:0;width:484px;font-family:"Instrument Serif",serif;font-weight:400;font-size:60px;line-height:72px;text-align:center;color:#000}
-.accordion{width:504px;display:flex;flex-direction:column;gap:21.4px}
-.acc-item{display:flex;align-items:center;gap:10px;width:504px;height:52px;transition:height .45s cubic-bezier(.2,.65,.25,1)}
+.accordion{width:504px;display:flex;flex-direction:column;gap:21px}
+.acc-item{display:flex;align-items:center;gap:10px;width:504px;height:52.40625px;transition:height .45s cubic-bezier(.2,.65,.25,1)}
 .acc-item.open{height:140px;align-items:flex-start}
 .acc-btn{flex:0 0 50px;width:50px;height:50px;border:none;border-radius:13px;background:rgba(0,0,0,0.04);display:grid;place-items:center;padding:16px;cursor:pointer}
-.acc-icon{width:18px;height:18px;background:rgba(0,0,0,0.2);clip-path:polygon(45% 0,55% 0,55% 45%,100% 45%,100% 55%,55% 55%,55% 100%,45% 100%,45% 55%,0 55%,0 45%,45% 45%);transition:transform .35s ease}
+.acc-icon{width:18px;height:18px;background:rgba(0,0,0,0.2);-webkit-mask:var(--plus) center/contain no-repeat;mask:var(--plus) center/contain no-repeat;transition:transform .35s ease;--plus:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M 7.001 0 L 7.001 14.002 M 14.002 7.002 L 0 7.002' fill='transparent' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' transform='translate(1 1)'/%3E%3C/svg%3E")}
 .acc-item.open .acc-icon{transform:rotate(135deg)}
 .acc-question{width:444px;min-height:52px;background:rgb(255,245,222);border-radius:14px;padding:15px 15px 15px 25px;box-shadow:rgba(0,0,0,0.08) 0 2px 4px 0;overflow:hidden;cursor:pointer;display:flex;flex-direction:column;gap:16px}
 .acc-question>p{margin:0;font-family:"Switzer",sans-serif;font-weight:500;font-size:16px;line-height:22.4px;color:#000}

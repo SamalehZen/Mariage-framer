@@ -10,7 +10,7 @@ export function Venue() {
           <h2 className="h2 reveal">So kindly join us on August 31st at....</h2>
         </div>
         <div className="venue-image reveal">
-          <img src="assets/venue.avif" srcSet="assets/venue.avif 1024w" sizes="900px" alt="water paint Photo of a castle" />
+          <div className="venue-image-inner"><img src="assets/venue.avif" width={5504} height={3072} srcSet="assets/venue.avif 1024w" sizes="900px" alt="water paint Photo of a castle" /></div>
         </div>
         <div className="venue-cta">
           <div className="venue-text reveal">
